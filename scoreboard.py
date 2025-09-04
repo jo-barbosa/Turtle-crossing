@@ -17,7 +17,7 @@ class Scoreboard:
 
     def update_scoreboard(self):
         self.pen.clear()
-        self.pen.write(f"Score: {self.score}", align="center", font=FONT)
+        self.pen.write(f"Level: {self.score}", align="center", font=FONT)
 
     def increase_score(self):
         self.score += 1
